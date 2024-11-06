@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estación de Radio</title>
+    <link rel="stylesheet" href="styleindex.css">
+</head>
+<body>
+    <div class="radio-container">
+        <div class="share">
+            <button id="share-button">🔗</button>
+        </div>
+        <div class="header">
+            <h1>RADIO</h1>
+        </div>
+        <div class="frequency-display">
+            <span id="frequency">94.3</span>
+        </div>
+        <div class="station-name">
+            <p>JAZZ RADIO</p>
+        </div>
+        <div class="controls">
+            <button id="play-button">▶️</button>
+            <audio id="radio" controls style="display:none;">
+                <source src="https://live-radio01.mediahubaustralia.com/2TJW/mp3/" type="audio/mpeg">
+                Tu navegador no soporta la reproducción de audio.
+            </audio>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
